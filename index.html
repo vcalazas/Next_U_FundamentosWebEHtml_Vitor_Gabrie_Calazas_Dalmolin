@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <title>Bootstrap Example</title>
+    <title>Currículo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="style/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </head>
     <body class="row body">
-        <header class="jumbotron text-center col-md-12">
+        <header class="jumbotron text-center col-md-12 animated fadeInDown">
+            <img src="public/images/logo.svg" class="rounded-circle img-1" alt="Cinque Terre">
             <h1>Curriculo</h1>
-            <p>Vitor Gabriel Calazas Dalmolin</p> 
+            <h2>Vitor Gabriel Calazas Dalmolin</h2> 
         </header>
 
-        <nav class="col-md-6 offset-md-5 text-center">
+        <nav class="col-md-6 offset-md-5 text-center animated fadeInUp">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Início</a>
@@ -30,36 +32,78 @@
             </ul>
         </nav>
 
-        <div class="container margin-top-md margin-botton-md">
+        <div class="container margin-top-md margin-botton-lg">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 animated fadeInLeft">
                     <h3>Dados Pessoais</h3>
                     <ul class="list-group">
                         <li class="list-group-item">Nome completo: Vitor Gabriel Calazas Dalmolin</li>
                         <li class="list-group-item">Data de nascimento: 12/02/2000</li>
-                        <li class="list-group-item">Third item</li>
+                        <li class="list-group-item">Endereço: Rua São José dos Pinhais, 893 - Sobrado - Sítio Cercado - Curitiba - PR - Cep: 81920-250 </li>
+                        <li class="list-group-item">Telefones:(41) 3289-0880 (Fixo) | (41)99569-8474 (tim)| (41) 9973-20518 (Tim) - Recado: Falar C/ Angelo (41) 99696-1713 (Tim) - Recado: Falar C/ Gislaine </li>
+                        <li class="list-group-item">Nacionalidade: Brasil</li>
+                        <li class="list-group-item">Estado Civil: Solteiro</li>
                     </ul> 
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 animated fadeInRight">
+                    <img src="public/images/img1.jpg" class="img-thumbnail img-6" alt="Cinque Terre"> 
                     <h3>Perfil</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <p>Experiencias com construção de sites para comércio vestuário;
+                        Domínio básico do idioma Inglês, voltado para leitura e interpretação de textos. Possui experiencia com Microsoft
+                        Word( nível intermediário ), Exel( nível intermediário ), programas para manipulação de banco de dados(SQL) nas
+                        plataformas Oracle, workbench e phpMyAdmin, editores de textos para linguagens de programação(C, C#, Java,
+                        HTML, JS, CSS e PHP) e ferramentas para desenvolvimento de apps Android.</p>
+                        
+                        
+                </div>
+                <div class="col-sm-12 row animated fadeInUp">
+                    <div class="col-sm-3">
+                        <h3>linguagens</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">javascript</li>
+                            <li class="list-group-item">Html</li>
+                            <li class="list-group-item">CSS</li>
+                            <li class="list-group-item">Java</li>
+                            <li class="list-group-item">C#</li>
+                        </ul> 
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Back-end</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Node js</li>
+                            <li class="list-group-item">Mongo db</li>
+                            <li class="list-group-item">PHP</li>
+                            <li class="list-group-item">SQl</li>
+                        </ul> 
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Front-end</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Angular</li>
+                            <li class="list-group-item">Bootstrap</li>
+                            <li class="list-group-item">Jquery</li>
+                            <li class="list-group-item">Jquery UI</li>
+                            <li class="list-group-item">Blur Admin</li>
+                        </ul> 
+                    </div>
+                    <div class="col-sm-3">
+                            <h3>Idiomas</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Portugês</li>
+                                <li class="list-group-item">Inglês</li>
+                            </ul> 
+                        </div>
                 </div>
             </div>
         </div>
-
-        <!-- <footer class="jumbotron text-center col-md-12">
-            <h1>Curriculo</h1>
-            <p>Vitor Gabriel Calazas Dalmolin</p> 
-        </footer> -->
-        <footer class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-            <a class="navbar-brand" href="index.html">Início</a>
+        <footer class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom animated fadeInUp">
+            <!-- <a class="navbar-brand" href="index.html">Início</a> -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="educacao.html">Educação</a>
+                    <a class="nav-link" href="javascript:void(0)">E-mail: vcalazas@gmail.com</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="experiencia.html">Experiência</a>
+                    <a class="nav-link" href="javascript:void(0)">Telefone: (41)99569-8474</a>
                 </li>
             </ul>
         </footer>

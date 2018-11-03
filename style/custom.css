@@ -10,6 +10,22 @@ body, html, .body{
     margin-top: 10px;
 }
 
-.margin-botton-md{
-    margin-bottom: 10%;
+.margin-botton-sm{
+    margin-bottom: 10px;
+}
+
+.margin-botton-lg{
+    margin-bottom: 100px;
+}
+
+.img-1{
+    width: 10%;
+}
+
+.img-6{
+    width: 50%;
+}
+
+label{
+    margin-top: 20px;
 }
